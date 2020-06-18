@@ -1,0 +1,10 @@
+version: "2.0"
+services:
+  rk_build:
+    build:
+        context: .
+        dockerfile: Dockerfile
+    container_name: rk1808-build
+    volumes:
+      - "./work:/root/work"
+    command: /bin/bash
