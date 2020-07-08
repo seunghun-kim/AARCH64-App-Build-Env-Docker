@@ -93,3 +93,6 @@ compile_commands.json
 CTestTestfile.cmake
 .cmake
 _deps
+
+work/*
+!work/.gitkeep
