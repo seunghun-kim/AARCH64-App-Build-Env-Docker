@@ -6,7 +6,8 @@ services:
         dockerfile: Dockerfile
     container_name: rk1808-build
     volumes:
-      - "./work:/root/work"
+      #- "./work:/root/work"
+      - "../:/root/work"
     command: /bin/bash
     stdin_open: true # docker run -i
     tty: true # docker run -t
